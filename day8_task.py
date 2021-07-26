@@ -3,3 +3,12 @@ def odd_value():
 	while(i !=0):
 		i=i+2
 		yield i
+n = odd_value()
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
